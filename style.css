@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+   
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+#color{
+    color: tomato;
+}
+.half-width{
+    display: flex;
+    padding: 10px 70px;
+}
+
+.welcome{
+ width: 50%;
+}
+
+.para-design{
+    margin-bottom: 68px;
+}
+
+.button{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    /* background-color: tomato; */
+    padding:10px 20px; 
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, orange);
+}
+
+.welcome img{
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#first-img{
+    padding-left: 50px;
+}
+
+#about-us{
+    background-image: url(images/background.png);
+    background-size: cover;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#item-part{
+    text-align: center;
+    padding: 40px 200px;
+}
+h2{
+    font-size: 40px;
+}
+
+.items-card{
+    display: flex;
+    margin: 50px;
+}
+.item-img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.food-items{
+    width: 30%;
+    background-color: rgb(255, 251, 251);
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+#last-sec{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 90px;
+    box-shadow: 1px 1px 15px 1px black;
+}
+.div-design{
+    width: 33.33%;
+}
+
+footer{
+    background-color: rgb(78, 67, 67);
+    text-align: center;
+    padding:20px 20px ;
+    color: white;
+}
+#foodie-font{
+    font-size: 30px;
+}

@@ -54,15 +54,15 @@ h1{
     padding-top: 40px;
     padding-bottom: 60px;
 }
-#item-part{
+#item-description{
     text-align: center;
-    padding: 40px 200px;
+    padding: 20px 200px;
 }
 h2{
     font-size: 40px;
 }
 
-.items-card{
+#items-card{
     display: flex;
     margin: 50px;
 }
@@ -95,11 +95,40 @@ h2{
 }
 
 footer{
-    background-color: rgb(78, 67, 67);
+    background-color: rgb(44, 35, 35);
     text-align: center;
     padding:20px 20px ;
     color: white;
 }
 #foodie-font{
     font-size: 30px;
+}
+
+#customer-review{
+    display: flex;
+    background-color: #fae8dd;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main-review{
+    text-align: center;
+    
+}
+
+#review-img{
+    margin: 30px;
+    width: 80%;
+}
+
+.half-review{
+    padding: 20px 60px;
+}
+
+.reviews{
+    margin: 30px;
+    padding: 2px 20px;
+    background-color: #e4ae8c;
+
 }
